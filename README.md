@@ -4,7 +4,8 @@ A bot for sending links to episodes mentioned in a chat room.
 
 ## Setup
 
-Copy `sample.config.yaml` to `config.yaml` and edit to your needs.
+Copy `sample.config.yaml` to `config.yaml` and edit to your needs. See the
+`example_configs` directory for examples.
 
 ## Usage
 
