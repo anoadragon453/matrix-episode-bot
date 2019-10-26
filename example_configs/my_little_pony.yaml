@@ -1,0 +1,94 @@
+# Welcome to the sample config file
+# Below you will find various config sections and options
+# Default values are shown
+
+# The string to prefix messages with to talk to the bot in group chats
+command_prefix: "!episodes"
+
+# Options for connecting to the bot's Matrix account
+matrix:
+  # The Matrix User ID of the bot account
+  user_id: "@mlp:localhost"
+  # The access token of the bot account
+  access_token: "xxx"
+  # The URL of the homeserver to connect to
+  homeserver_url: http://localhost
+  # The device ID given on login
+  device_id: XXXXXXXXX
+
+database:
+  # The path to the database
+  filepath: "bot.db"
+
+# Logging setup
+logging:
+  # Logging level
+  # Allowed levels are 'INFO', 'WARNING', 'ERROR', 'DEBUG' where DEBUG is most verbose
+  level: INFO
+  # Configure logging to a file
+  file_logging:
+    # Whether logging to a file is enabled
+    enabled: false
+    # The path to the file to log to. May be relative or absolute
+    filepath: bot.log
+  # Configure logging to the console output
+  console_logging:
+    # Whether logging to the console is enabled
+    enabled: true
+
+# Show-specific information
+show:
+  # The title of the show
+  title: "My Little Pony: Friendship is Magic"
+  # Episode information, organized by season
+  episodes:
+    1:
+      1:
+        name: "Friendship is Magic (Part 1)"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=be411d24-0764-433d-b5ef-e40ce6dd3327"
+      2:
+        name: "Friendship is Magic (Part 2)"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=add48e0a-64bc-4128-8278-4d26f9b8f8d1"
+      3:
+        name: "The Ticket Master"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=e07a1cce-6fe3-40b9-a799-50d9a1713a2a"
+      4:
+        name: "Applebuck Season"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=78d5b75a-40de-4f8e-9400-38bb4c5948f0"
+      5:
+        name: "Griffon the Brush-Off"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=bf53974a-5f5c-4dd5-b809-451c1d30d934"
+      6:
+        name: "Boast Busters"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=3fa87dd8-5742-4eb5-a0a5-3077107dd648"
+      7:
+        name: "Dragonshy"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=2f84fffb-ae44-41fb-80b8-a07fa99686b4"
+      8:
+        name: "Look Before You Sleep"
+        link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=4116a077-6460-471d-87dc-59dbb6c795c6"
+    2:
+      1:
+        name: "The Return of Harmony (Part 1)"
+        link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=de12c423-9448-42a8-a428-bed13e380fa7"
+      2:
+        name: "The Return of Harmony (Part 2)"
+        link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=236cb316-33f3-4ea2-a351-ee01e970f35a"
+      3:
+        name: "Lesson Zero"
+        link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=84be6169-23de-4ee5-871a-d618a57a4fba"
+      4:
+        name: "Luna Eclipsed"
+        link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=993d36e7-860e-43cd-91f9-9b366e4cf837"
+  # Custom message to display to users providing them a means to browse episodes
+  # Appears when using the `list` command
+  all_episode_text: "List of My Little Pony Episodes:\n\n
+    Season 1: https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=be411d24-0764-433d-b5ef-e40ce6dd3327\n\n
+    Season 2: https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=de12c423-9448-42a8-a428-bed13e380fa7\n\n
+    Season 3: https://vault.mle.party/videos/watch/playlist/ea3b3a4a-685b-4f1c-b132-adfc6679330d?videoId=c13083dd-346b-4bd1-bc03-d66ef6900d7e\n\n
+    Season 4: https://vault.mle.party/videos/watch/playlist/d20b708c-378b-4dcc-b96d-62c9ed5be6a5?videoId=5d956d97-69cd-4182-be15-31124d8f742d\n\n
+    Season 5: https://vault.mle.party/videos/watch/playlist/71dfa7aa-45e9-40bd-b212-8ebb886009e0?videoId=69f974cf-3801-40b4-8e76-a452ee487456\n\n
+    Season 6: https://vault.mle.party/videos/watch/playlist/5ec7c9d3-b208-4394-8675-be69c35f0135?videoId=0c222c3b-d4e9-430e-95b9-ddb171db1178\n\n
+    Season 7: https://vault.mle.party/videos/watch/playlist/2ea5a3b4-5896-40b1-835e-c1d28a39d9b7?videoId=1890f4af-b2df-44e0-9302-97a9b3f1461d\n\n
+    Season 8: https://vault.mle.party/videos/watch/playlist/44cbaaca-9af1-46a6-a13f-45bf46ab56a0?videoId=63d86b46-56cb-4292-811f-8dfd43e701a9\n\n
+    Season 9: https://vault.mle.party/videos/watch/playlist/10c80bba-3a4f-42b1-a845-b1671dd47a2d?videoId=6b990358-2112-412d-8246-43fbfb360bf7"

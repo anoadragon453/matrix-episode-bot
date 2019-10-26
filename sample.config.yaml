@@ -1,0 +1,77 @@
+# Welcome to the sample config file
+# Below you will find various config sections and options
+# Default values are shown
+
+# The string to prefix messages with to talk to the bot in group chats
+command_prefix: "!episodes"
+
+# Options for connecting to the bot's Matrix account
+matrix:
+  # The Matrix User ID of the bot account
+  user_id: "@bot:example.com"
+  # The access token of the bot account
+  access_token: ""
+  # The device ID given on login
+  device_id: ABCDEFGHIJ
+  # The URL of the homeserver to connect to
+  homeserver_url: https://example.com
+
+database:
+  # The path to the database
+  filepath: "bot.db"
+
+# Logging setup
+logging:
+  # Logging level
+  # Allowed levels are 'INFO', 'WARNING', 'ERROR', 'DEBUG' where DEBUG is most verbose
+  level: INFO
+  # Configure logging to a file
+  file_logging:
+    # Whether logging to a file is enabled
+    enabled: false
+    # The path to the file to log to. May be relative or absolute
+    filepath: bot.log
+  # Configure logging to the console output
+  console_logging:
+    # Whether logging to the console is enabled
+    enabled: true
+
+# Show-specific information
+show:
+  # The title of the show
+  title: "Some show"
+  # Episode information, organized by season
+  episodes:
+    # Season 1
+    1:
+      # Episode 1
+      1:
+        name: "A New World"
+        link: "https://link.to/episode/s1e1"
+      # Episode 2
+      2:
+        name: "The Exciting Middle"
+        link: "https://link.to/episode/s1e2"
+      # Episode 3
+      3:
+        name: "A Tragic Conclusion"
+        link: "https://link.to/episode/s1e3"
+    # Season 2 etc...
+    2:
+      # Episode 1
+      1:
+        name: "A Newer World"
+        link: "https://link.to/episode/s2e1"
+      # Episode 2
+      2:
+        name: "The More Exciting Middle"
+        link: "https://link.to/episode/s2e2"
+      # Episode 3
+      3:
+        name: "A Tragicer Conclusioner"
+        link: "https://link.to/episode/s2e3"
+  # Custom message to display to users providing them a means to browse episodes
+  # Appears when using the `list` command
+  all_episode_text: "List of all episodes:\n
+    Season 1: https://link.to/season/1\n
+    Season 2: https://link.to/season/2"
