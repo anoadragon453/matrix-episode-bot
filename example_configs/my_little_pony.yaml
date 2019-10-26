@@ -44,42 +44,676 @@ show:
   episodes:
     1:
       1:
-        name: "Friendship is Magic (Part 1)"
+        name: Friendship is Magic (Part 1)
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=be411d24-0764-433d-b5ef-e40ce6dd3327"
       2:
-        name: "Friendship is Magic (Part 2)"
+        name: Friendship is Magic (Part 2)
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=add48e0a-64bc-4128-8278-4d26f9b8f8d1"
       3:
-        name: "The Ticket Master"
+        name: The Ticket Master
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=e07a1cce-6fe3-40b9-a799-50d9a1713a2a"
       4:
-        name: "Applebuck Season"
+        name: Applebuck Season
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=78d5b75a-40de-4f8e-9400-38bb4c5948f0"
       5:
-        name: "Griffon the Brush-Off"
+        name: Griffon the Brush-Off
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=bf53974a-5f5c-4dd5-b809-451c1d30d934"
       6:
-        name: "Boast Busters"
+        name: Boast Busters
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=3fa87dd8-5742-4eb5-a0a5-3077107dd648"
       7:
-        name: "Dragonshy"
+        name: Dragonshy
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=2f84fffb-ae44-41fb-80b8-a07fa99686b4"
       8:
-        name: "Look Before You Sleep"
+        name: Look Before You Sleep
         link: "https://vault.mle.party/videos/watch/playlist/7eca0ac8-6a2f-4024-890d-6f4df99ec646?videoId=4116a077-6460-471d-87dc-59dbb6c795c6"
+      9:
+        name: Bridge Gossip
+        link: ""
+      10:
+        name: Swarm of the Century
+        link: ""
+      11:
+        name: Winter Wrap Up
+        link: ""
+      12:
+        name: Call of the Cutie
+        link: ""
+      13:
+        name: Fall Weather Friends
+        link: ""
+      14:
+        name: Suited For Success
+        link: ""
+      15:
+        name: Feeling Pinkie Keen
+        link: ""
+      16:
+        name: Sonic Rainboom
+        link: ""
+      17:
+        name: Stare Master
+        link: ""
+      18:
+        name: The Show Stoppers
+        link: ""
+      19:
+        name: A Dog and Pony Show
+        link: ""
+      20:
+        name: Green Isn't Your Color
+        link: ""
+      21:
+        name: Over a Barrel
+        link: ""
+      22:
+        name: A Bird in the Hoof
+        link: ""
+      23:
+        name: The Cutie Mark Chronicles
+        link: ""
+      24:
+        name: Owl's Well That Ends Well
+        link: ""
+      25:
+        name: Party of One
+        link: ""
+      26:
+        name: The Best Night Ever
+        link: ""
     2:
       1:
-        name: "The Return of Harmony (Part 1)"
+        name: The Return of Harmony (Part 1)
         link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=de12c423-9448-42a8-a428-bed13e380fa7"
       2:
-        name: "The Return of Harmony (Part 2)"
+        name: The Return of Harmony (Part 2)
         link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=236cb316-33f3-4ea2-a351-ee01e970f35a"
       3:
-        name: "Lesson Zero"
+        name: Lesson Zero
         link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=84be6169-23de-4ee5-871a-d618a57a4fba"
       4:
-        name: "Luna Eclipsed"
+        name: Luna Eclipsed
         link: "https://vault.mle.party/videos/watch/playlist/c31f48c5-ee9a-4ff7-82a7-9b13182be6a2?videoId=993d36e7-860e-43cd-91f9-9b366e4cf837"
+      5:
+        name: Sisterhooves Social
+        link:
+      6:
+        name: The Cutie Pox
+        link:
+      7:
+        name: May the Best Pet Win!
+        link:
+      8:
+        name: The Mysterious Mare Do Well
+        link:
+      9:
+        name: Sweet and Elite
+        link:
+      10:
+        name: Secret of My Excess
+        link:
+      11:
+        name: Hearth's Warming Eve
+        link:
+      12:
+        name: Family Appreciation Day
+        link:
+      13:
+        name: Baby Cakes
+        link:
+      14:
+        name: The Last Roundup
+        link:
+      15:
+        name: The Super Speedy Cider Squeezy 6000
+        link:
+      16:
+        name: Read It and Weep
+        link:
+      17:
+        name: Hearts and Hooves Day
+        link:
+      18:
+        name: A Friend in Deed
+        link:
+      19:
+        name: Putting Your Hoof Down
+        link:
+      20:
+        name: It's About Time
+        link:
+      21:
+        name: Dragon Quest
+        link:
+      22:
+        name: Hurricane Fluttershy
+        link:
+      23:
+        name: Ponyville Confidential
+        link:
+      24:
+        name: MMMystery on the Friendship Express
+        link:
+      25:
+        name: A Canterlot Wedding (Part 1)
+        link:
+      26:
+        name: A Canterlot Wedding (Part 2)
+        link:
+    3:
+      1:
+        name: The Crystal Empire (Part 1)
+        link:
+      2:
+        name: The Crystal Empire (Part 2)
+        link:
+      3:
+        name: Too Many Pinkie Pies
+        link:
+      4:
+        name: One Bad Apple
+        link:
+      5:
+        name: Magic Duel
+        link:
+      6:
+        name: Sleepless in Ponyville
+        link:
+      7:
+        name: Wonderbolts Academy
+        link:
+      8:
+        name: Apple Family Reunion
+        link:
+      9:
+        name: Spike at Your Service
+        link:
+      10:
+        name: Keep Calm and Flutter On
+        link:
+      11:
+        name: Just for Sidekicks
+        link:
+      12:
+        name: Games Ponies Play
+        link:
+      13:
+        name: Magical Mystery Cure
+        link:
+    4:
+      1:
+        name: Princess Twilight Sparkle (Part 1)
+        link:
+      2:
+        name: Princess Twilight Sparkle (Part 2)
+        link:
+      3:
+        name: Castle Mane-ia
+        link:
+      4:
+        name: Daring Don't
+        link:
+      5:
+        name: Flight to the Finish
+        link:
+      6:
+        name: Power Ponies
+        link:
+      7:
+        name: Bats!
+        link:
+      8:
+        name: Rarity Takes Manehattan
+        link:
+      9:
+        name: Pinkie Apple Pie
+        link:
+      10:
+        name: Rainbow Falls
+        link:
+      11:
+        name: Three's a Crowd
+        link:
+      12:
+        name: Pinkie Pride
+        link:
+      13:
+        name: Simple Ways
+        link:
+      14:
+        name: Filli Vanilli
+        link:
+      15:
+        name: Twilight Time
+        link:
+      16:
+        name: It Ain't Easy Being Breezies
+        link:
+      17:
+        name: Somepony to Watch Over Me
+        link:
+      18:
+        name: Maud Pie
+        link:
+      19:
+        name: For Whom the Sweetie Belle Toils
+        link:
+      20:
+        name: Leap of Faith
+        link:
+      21:
+        name: Testing Testing 1, 2, 3
+        link:
+      22:
+        name: Trade Ya!
+        link:
+      23:
+        name: Inspiration Manifestation
+        link:
+      24:
+        name: Equestria Games
+        link:
+      25:
+        name: Twilight's Kingdom (Part 1)
+        link:
+      26:
+        name: Twilight's Kingdom (Part 2)
+        link:
+    5:
+      1:
+        name: The Cutie Map (Part 1)
+        link:
+      2:
+        name: The Cutie Map (Part 2)
+        link:
+      3:
+        name: Castle Sweet Castle
+        link:
+      4:
+        name: Bloom & Gloom
+        link:
+      5:
+        name: Tanks for the Memories
+        link:
+      6:
+        name: Appleoosa's Most Wanted
+        link:
+      7:
+        name: Make New Friends but Keep Discord
+        link:
+      8:
+        name: The Lost Treasure of Griffonstone
+        link:
+      9:
+        name: Slice of Life
+        link:
+      10:
+        name: Princess Spike
+        link:
+      11:
+        name: Party Pooped
+        link:
+      12:
+        name: Amending Fences
+        link:
+      13:
+        name: Do Princesses Dream of Magic Sheep?
+        link:
+      14:
+        name: Canterlot Boutique
+        link:
+      15:
+        name: Rarity Investigates!
+        link:
+      16:
+        name: Made in Manehattan
+        link:
+      17:
+        name: Brotherhooves Social
+        link:
+      18:
+        name: Crusaders of the Lost Mark
+        link:
+      19:
+        name: The One Where Pinkie Pie Knows
+        link:
+      20:
+        name: Hearthbreakers
+        link:
+      21:
+        name: Scare Master
+        link:
+      22:
+        name: What About Discord?
+        link:
+      23:
+        name: The Hooffields and McColts
+        link:
+      24:
+        name: The Mane Attraction
+        link:
+      25:
+        name: The Cutie Re-Mark (Part 1)
+        link:
+      26:
+        name: The Cutie Re-Mark (Part 2)
+        link:
+    6:
+      1:
+        name: The Crystalling (Part 1)
+        link:
+      2:
+        name: The Crystalling (Part 2)
+        link:
+      3:
+        name: The Gift of the Maud Pie
+        link:
+      4:
+        name: On Your Marks
+        link:
+      5:
+        name: Gauntlet of Fire
+        link:
+      6:
+        name: No Second Prances
+        link:
+      7:
+        name: Newbie Dash
+        link:
+      8:
+        name: A Hearth's Warming Tail
+        link:
+      9:
+        name: The Saddle Row Review
+        link:
+      10:
+        name: Applejack's Day Off
+        link:
+      11:
+        name: Flutter Brutter
+        link:
+      12:
+        name: Spice Up Your Life
+        link:
+      13:
+        name: Stranger Than Fan Fiction
+        link:
+      14:
+        name: The Cart Before the Ponies
+        link:
+      15:
+        name: 28 Pranks Later
+        link:
+      16:
+        name: The Times They Are a Changeling
+        link:
+      17:
+        name: Dungeons & Discords
+        link:
+      18:
+        name: Buckball Season
+        link:
+      19:
+        name: The Fault in Our Cutie Marks
+        link:
+      20:
+        name: Viva Las Pegasus
+        link:
+      21:
+        name: Every Little Thing She Does
+        link:
+      22:
+        name: P.P.O.V. (Pony Point of View)
+        link:
+      23:
+        name: Where the Apple Lies
+        link:
+      24:
+        name: Top Bolt
+        link:
+      25:
+        name: To Where and Back Again (Part 1)
+        link:
+      26:
+        name: To Where and Back Again (Part 2)
+        link:
+    7:
+      1:
+        name: Celestial Advice
+        link:
+      2:
+        name: All Bottled Up
+        link:
+      3:
+        name: A Flurry of Emotions
+        link:
+      4:
+        name: Rock Solid Friendship
+        link:
+      5:
+        name: Fluttershy Leans In
+        link:
+      6:
+        name: Forever Filly
+        link:
+      7:
+        name: Parental Glideance
+        link:
+      8:
+        name: Hard to Say Anything
+        link:
+      9:
+        name: Honest Apple
+        link:
+      10:
+        name: A Royal Problem
+        link:
+      11:
+        name: Not Asking for Trouble
+        link:
+      12:
+        name: Discordant Harmony
+        link:
+      13:
+        name: The Perfect Pear
+        link:
+      14:
+        name: Fame and Misfortune
+        link:
+      15:
+        name: Triple Threat
+        link:
+      16:
+        name: Campfire Tales
+        link:
+      17:
+        name: To Change a Changeling
+        link:
+      18:
+        name: Daring Done?
+        link:
+      19:
+        name: It Isn't the Mane Thing About You
+        link:
+      20:
+        name: A Health of Information
+        link:
+      21:
+        name: Marks and Recreation
+        link:
+      22:
+        name: Once Upon a Zeppelin
+        link:
+      23:
+        name: Secrets and Pies
+        link:
+      24:
+        name: Uncommon Bond
+        link:
+      25:
+        name: Shadow Play (Part 1)
+        link:
+      26:
+        name: Shadow Play (Part 2)
+        link:
+    8:
+      1:
+        name: School Daze (Part 1)
+        link:
+      2:
+        name: School Daze (Part 2)
+        link:
+      3:
+        name: The Maud Couple
+        link:
+      4:
+        name: Fake It 'Til You Make It
+        link:
+      5:
+        name: Grannies Gone Wild
+        link:
+      6:
+        name: Surf and/or Turf
+        link:
+      7:
+        name: Horse Play
+        link:
+      8:
+        name: The Parent Map
+        link:
+      9:
+        name: Non-Compete Clause
+        link:
+      10:
+        name: The Break Up Break Down
+        link:
+      11:
+        name: Molt Down
+        link:
+      12:
+        name: Marks for Effort
+        link:
+      13:
+        name: The Mean 6
+        link:
+      14:
+        name: A Matter of Principals
+        link:
+      15:
+        name: The Hearth's Warming Club
+        link:
+      16:
+        name: Friendship University
+        link:
+      17:
+        name: The End in Friend
+        link:
+      18:
+        name: Yakity-Sax
+        link:
+      19:
+        name: Road to Friendship
+        link:
+      20:
+        name: The Washouts
+        link:
+      21:
+        name: A Rockhoof and a Hard Place
+        link:
+      22:
+        name: What Lies Beneath
+        link:
+      23:
+        name: Sounds of Silence
+        link:
+      24:
+        name: Father Knows Beast
+        link:
+      25:
+        name: School Raze (Part 1)
+        link:
+      26:
+        name: School Raze (Part 2)
+        link:
+    9:
+      1:
+        name: The Beginning of the End (Part 1)
+        link:
+      2:
+        name: The Beginning of the End (Part 2)
+        link:
+      3:
+        name: Uprooted
+        link:
+      4:
+        name: Sparkle's Seven
+        link:
+      5:
+        name: The Point of No Return
+        link:
+      6:
+        name: Common Ground
+        link:
+      7:
+        name: She's All Yak
+        link:
+      8:
+        name: Frenemies
+        link:
+      9:
+        name: Sweet and Smoky
+        link:
+      10:
+        name: Going to Seed
+        link:
+      11:
+        name: Student Counsel
+        link:
+      12:
+        name: The Last Crusade
+        link:
+      13:
+        name: Between Dark and Dawn
+        link:
+      14:
+        name: The Last Laugh
+        link:
+      15:
+        name: 2, 4, 6, Greaaat
+        link:
+      16:
+        name: A Trivial Pursuit
+        link:
+      17:
+        name: The Summer Sun Setback
+        link:
+      18:
+        name: She Talks to Angel
+        link:
+      19:
+        name: Dragon Dropped
+        link:
+      20:
+        name: A Horse Shoe-In
+        link:
+      21:
+        name: Daring Doubt
+        link:
+      22:
+        name: Growing Up is Hard to Do
+        link:
+      23:
+        name: The Big Mac Question
+        link:
+      24:
+        name: The Ending of the End (Part 1)
+        link:
+      25:
+        name: The Ending of the End (Part 2)
+        link:
+      26:
+        name: The Last Problem
+        link:
   # Custom message to display to users providing them a means to browse episodes
   # Appears when using the `list` command
   all_episode_text: "List of My Little Pony Episodes:\n\n
