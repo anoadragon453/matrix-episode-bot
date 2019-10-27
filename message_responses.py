@@ -55,7 +55,7 @@ class Message(object):
 
         # Check for episode titles in the message
         for title, link in self.config.episode_titles_to_link.items():
-            if title in self.message_content.lower():
+            if title.lower() in self.message_content.lower():
                 logger.info("Found title in message: %s", title)
                 response += "%s: %s" % (title, link)
 
