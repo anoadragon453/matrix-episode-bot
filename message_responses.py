@@ -34,7 +34,7 @@ class Message(object):
 
     async def process(self):
         """Process and possibly respond to the message"""
-        response = ""
+        found_eps = []
 
         # Check if there was a SXXEXX mention in the message
         for match_group in self.season_episode_regex.finditer(self.message_content):
@@ -51,13 +51,17 @@ class Message(object):
             except KeyError:
                 continue
 
-            response += "%s: %s" % (title, link)
+            ep_code = self.config.episode_titles_to_code[title]
+            found_eps.append("%s %s: %s" % (ep_code, title, link))
 
         # Check for episode titles in the message
         for title, link in self.config.episode_titles_to_link.items():
             if title.lower() in self.message_content.lower():
                 logger.info("Found title in message: %s", title)
-                response += "%s: %s" % (title, link)
 
-        if response:
-            await send_text_to_room(self.client, self.room.room_id, response)
+                ep_code = self.config.episode_titles_to_code[title]
+                found_eps.append("%s %s: %s" % (ep_code, title, link))
+
+        if found_eps:
+            text = "\n\n".join(found_eps)
+            await send_text_to_room(self.client, self.room.room_id, text)

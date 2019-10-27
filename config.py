@@ -77,3 +77,8 @@ class Config(object):
         for _, season in self.episodes.items():
             for _, episode in season.items():
                 self.episode_titles_to_link[episode["name"]] = episode["link"]
+
+        self.episode_titles_to_code = {}
+        for s, season in self.episodes.items():
+            for e, episode in season.items():
+                self.episode_titles_to_code[episode["name"]] = "S%sE%s" % (str(s).zfill(2), str(e).zfill(2))
