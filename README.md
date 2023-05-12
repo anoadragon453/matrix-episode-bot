@@ -1,3 +1,5 @@
+# Warning: This code is very old and there are better ways to make Matrix bots in Python these days. I recommend you check out either [maubot](https://github.com/maubot/maubot) (easy) or [mautrix-python](https://github.com/mautrix/python) (for something more low-level).
+
 # Matrix Episode Bot
 
 A bot for sending links to episodes mentioned in a chat room.
